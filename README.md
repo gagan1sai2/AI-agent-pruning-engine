@@ -76,7 +76,7 @@ The Gate Value Distribution plot reveals a bimodal distribution with a massive c
 
 ### 1. Clone the Repository  
 ```bash
-git clone https://github.com/gagan1sai2/ai-agent-pruning-engine.git  
+git clone https://github.com/gagan1sai2/AI-agent-pruning-engine.git  
 cd ai-agent-pruning-engine  
 ```
 
