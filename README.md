@@ -110,7 +110,7 @@ Chosen as a benchmark dataset to validate the model’s ability to learn complex
 
 ## Author  
 
-Ch Gagan Sai
+Ch Gagan Sai  
 Integrated M.Tech Software Engineering student at VIT Vellore  
 
 ---
