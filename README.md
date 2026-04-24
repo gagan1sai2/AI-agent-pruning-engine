@@ -68,7 +68,7 @@ The model was evaluated across different values of the sparsity hyperparameter (
 
 The Gate Value Distribution plot reveals a bimodal distribution with a massive concentration at $0.0$. This indicates that the gating mechanism has successfully identified and 'switched off' non-contributing synaptic weights, effectively reducing the model's memory footprint by over $99\%$ without a catastrophic loss in classification performance. 
 
-![Gate Distribution](results/gate_distribution.png)
+![Gate Distribution](Results/gate_distribution.png)
 
 ---
 
