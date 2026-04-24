@@ -58,17 +58,15 @@ The model was evaluated across different values of the sparsity hyperparameter (
 
 | Sparsity Penalty (λ) | Test Accuracy (%) | Sparsity Level (%) | Result |
 |---------------------|------------------|--------------------|--------|
-| 0.0001 (Low)        | [Insert]         | [Insert]           | Dense & Accurate |
-| 0.001 (Medium)      | [Insert]         | [Insert]           | Balanced Efficiency |
-| 0.005 (High)        | [Insert]         | [Insert]           | Highly Compressed |
+| 0.001 (Light)        | 56.33%         | 64.47%           | Highly Efficient |
+| 0.01 (Balanced)      | 54.18%         | 97.33%          | Extremely Sparse |
+| 0.1 (Aggressive)        | 50.82%         | 99.84%           | Minimalist Model |
 
 ---
 
 ## Gate Value Distribution  
 
-The histogram below shows the distribution of learnable gates for the most sparse model.  
-
-A sharp spike near 0.0 confirms effective pruning (inactive connections).  
+The Gate Value Distribution plot reveals a bimodal distribution with a massive concentration at $0.0$. This indicates that the gating mechanism has successfully identified and 'switched off' non-contributing synaptic weights, effectively reducing the model's memory footprint by over $99\%$ without a catastrophic loss in classification performance. 
 
 ![Gate Distribution](results/gate_distribution.png)
 
